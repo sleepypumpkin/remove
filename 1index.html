@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title>remove</title>
+    </head>
+    <body>
+        <div id="one" style="height: 500px; width: 500px; background-image: url(%D0%BC%D0%B0%D1%81%D0%BA%D0%B0.jpg); background-size: 500px 500px; background-color:darkcyan; float: left">
+        </div>
+        
+        <div id="two" style="height: 500px; width: 500px; background-color: blueviolet; background-image: url(pictures/%D1%84%D0%B8%D0%BB%D1%8C%D0%BC.jpeg); background-size: 500px 500px; float: left">
+        </div>
+        
+        <div id="three" style="height: 500px; width: 500px; background-color: cornflowerblue; background-image: url(pictures/%D1%87%D0%BF%D0%B0%D1%83%D0%BA.jpeg); background-size: 500px 500px; float: left">
+        </div>
+
+        <script>
+            var box = document.getElementById('one')
+            box.onmousedown = function (){
+                box.style.backgroundImage='url(pictures/%D0%BC%D0%B0%D1%81%D0%BA%D0%B0-removebg-preview.png)'
+            }
+            var box2 = document.getElementById('two')
+            box2.onmousedown = function (){
+                box2.style.backgroundImage='url(pictures/%D1%84%D0%B8%D0%BB%D1%8C%D0%BC-removebg-preview.png)'
+            }
+            var box3 = document.getElementById('three')
+            box3.onmousedown = function (){
+                box3.style.backgroundImage='url(pictures/%D1%87%D0%BF%D0%B0%D1%83%D0%BA-removebg-preview.png)'
+            }
+           
+        </script>
+    </body>
+</html>
